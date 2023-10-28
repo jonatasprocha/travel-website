@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 10vh;
+    background-color: rgb(253, 253, 253, 0.6);
+    padding: 20px 50px 20px 50px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.links-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-navbar li a {
+    text-decoration: none;
+    color:rgb(45,73,112);
+}
+
+.navbar-link {
+    padding: 10px;
+    margin: 10px;
+}
+
+#contact-nav {
+    border: 2px solid black;
+}
+
+.banner {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.continentes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-fluid {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.destaques {
+    padding: 20px 50px 20px 50px;
+}
+
+.sect-br-places {
+    padding: 20px 50px 20px 50px;
+}
+
+.br-places {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
